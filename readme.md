@@ -36,3 +36,15 @@ Aplicar estilos para mejorar la apariencia del formulario.
  - - algunas clases y eventos:  :focus, .error
  
 
+## Validación de formulario con Javascript
+### Objetivo: 
+Validar los campos del formulario antes de enviarlo usando JavaScript.
+
+### Instrucciones: 
+- Prevenir el envio del formulario con event.preventDefault()
+ - - Validamos nombre con mínimo 3 caracteres
+ - - Email ya valida con el campo HTML
+ - - Contraseña con al menos 6 caracteres
+ - - Edad tiene que ser mayor de 18 años
+ - Mostrar mensaje de error junto a cada campo
+ - Resaltar los campos de error usando CSS.
